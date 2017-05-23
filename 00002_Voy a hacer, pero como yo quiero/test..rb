@@ -19,5 +19,11 @@ describe 'Pepita' do
     Pepita.energia = 1010
     Pepita.hacer_lo_que_quiera!
     expect(Pepita.energia).to eq 990
+  end
+  
+  it 'cuando no está ni triste ni feliz y hace lo que quiere, no pasa nada' do
+    Pepita.energia = 500
+    Pepita.hacer_lo_que_quiera!
+    expect(Pepita.energia).to eq 500
   end  
 end
