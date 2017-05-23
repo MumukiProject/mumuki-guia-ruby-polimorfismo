@@ -9,6 +9,6 @@ describe 'Pachorra' do
   
   it 'hace entrenar a Pepita cuando recibe entrenar_golondrina!' do
     Pachorra.entrenar_golondrina!
-    expect(Pepita.energia).to eq 24
+    expect(Pepita.energia).to eq 1250
   end
 end
