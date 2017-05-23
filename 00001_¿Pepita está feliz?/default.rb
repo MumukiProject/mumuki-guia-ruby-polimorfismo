@@ -17,6 +17,10 @@ module Pepita
   def self.volar_en_circulos!
     @energia -= 10
   end
+  
+  def self.comer_alpiste!(gramos)
+    @energia += gramos * 15
+  end  
 
   def self.volar_hacia!(destino)
     self.gastar_energia!(destino)
