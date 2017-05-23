@@ -1,3 +1,4 @@
+
 module Pepita
   @energia = 1000
   @ciudad = Obera
@@ -45,9 +46,7 @@ module Pepita
     end
     
     if self.feliz?
-      2.times do 
-        self.volar_en_circulos! 
-      end
+      5.times { self.volar_en_circulos! }
     end
   end  
 end
