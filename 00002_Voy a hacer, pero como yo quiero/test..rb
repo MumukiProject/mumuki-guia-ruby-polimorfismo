@@ -15,10 +15,10 @@ describe 'Pepita' do
     expect(Pepita.energia).to eq 230
   end
   
-  it 'cuando está feliz y hace lo que quiere, vuela en círculos dos veces' do
+  it 'cuando está feliz y hace lo que quiere, vuela en círculos cinco veces' do
     Pepita.energia = 1010
     Pepita.hacer_lo_que_quiera!
-    expect(Pepita.energia).to eq 990
+    expect(Pepita.energia).to eq 960
   end
   
   it 'cuando no está ni triste ni feliz y hace lo que quiere, no pasa nada' do
