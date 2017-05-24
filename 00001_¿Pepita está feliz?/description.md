@@ -9,4 +9,4 @@ En nuestro **modelo** de Pepita, vamos a representar simplemente dos estados pos
 
 > Completá los métodos `debil?` y `feliz?` de `Pepita`. 
 
-:warning: Como en esta lección no vamos a interactuar con las ciudades, hemos quitado todo lo relacionado a ellas de `Pepita`. Esto solo lo hacemos para que te sea más fácil escribir el código, no lo intentes en casa.
+:warning: Como en esta lección no vamos a interactuar con las ciudades, hemos quitado todo lo relacionado a ellas de `Pepita`. Esto solo lo hacemos para que te sea más fácil escribir el código, no lo intentes en casa. :warning:
