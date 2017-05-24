@@ -4,4 +4,4 @@ Los números entienden un mensaje llamado `times`, que sirve para ejecutar una p
 10.times { Pepita.cantar! }
 ```
 
-Antes de seguir, ¿te animás a editar tu solución para que use esta forma de **repetición**? :smirk:
+Antes de seguir, ¿te animás a editar tu solución para que use esta forma de repetición? :smirk:
