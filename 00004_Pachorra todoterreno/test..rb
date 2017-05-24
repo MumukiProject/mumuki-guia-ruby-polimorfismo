@@ -1,4 +1,8 @@
 describe 'Pachorra' do
+  it 'entiende firmar_contrato!' do
+    expect(Pachorra).to respond_to :firmar_contrato!
+  end
+  
   it 'firma contrato con Pepita y la entrena' do
     Pachorra.firmar_contrato!(Pepita)
     Pachorra.entrenar_ave!

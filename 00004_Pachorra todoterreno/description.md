@@ -1,6 +1,6 @@
-Nuestro amigo `Pachorra` puede entrenar cualquier tipo de aves, aunque le gusta entrenar de a una a la vez.
+Como imaginabas, `Pachorra` puede entrenar cualquier tipo de aves, aunque para que no haya problemas, solo entrena de a una a la vez.
 
-Para que no haya problemas, siempre firma un contrato antes de empezar a entrenar a quien sea
+Antes de empezar a entrenar, debe firmar un contrato con el ave. Esto, por ejemplo, lo haríamos de la siguiente manera:
 
 ```ruby
 Pachorra.firmar_contrato!(Pepita)
@@ -9,4 +9,4 @@ Pachorra.firmar_contrato!(Pepo)
 Pachorra.entrenar_ave! # ahora entrena a Pepo
 ```
 
-> Modificá a `Pachorra` para que cuando le enviemos el mensaje `entrenar_ave!` haga entrenar al último ave con el que haya firmado contrato.
+> Agregale a `Pachorra` el mensaje `firmar_contrato!(ave)`, de forma tal que cuando le enviemos el mensaje `entrenar_ave!` haga entrenar al último ave con el que haya firmado contrato.
