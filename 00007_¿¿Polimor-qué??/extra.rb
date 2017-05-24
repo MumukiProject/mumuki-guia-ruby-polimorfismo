@@ -11,7 +11,7 @@ module Pachorra
   end
 end
 
-module Roque
+module Emilce
   def self.firmar_contrato!(ave)
     @ave = ave
   end
