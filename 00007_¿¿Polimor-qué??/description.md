@@ -17,4 +17,5 @@ end
 ```
 
 > ¿Podrá `Norita` entrenar con `Emilce`? ¿Y `Pepita`? ¿Y `Pepo`?
+>
 > Probalo en la consola y completá el código con `true` (verdadero) o `false` (falso) según corresponda.
