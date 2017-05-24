@@ -11,6 +11,17 @@ module Pachorra
   end
 end
 
+module Roque
+  def self.firmar_contrato!(ave)
+    @ave = ave
+  end
+  
+  def self.entrenar_ave!
+    53.times { @ave.volar_en_circulos! }
+    @ave.comer_alpiste!(8)
+  end
+end
+
 module Norita
   @energia = 500
 
