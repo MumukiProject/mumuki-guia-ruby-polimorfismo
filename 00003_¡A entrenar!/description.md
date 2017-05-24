@@ -1,4 +1,6 @@
-La rutina consiste en:
+Nuestras aves quieren presentarse a las próximas Olimpíadas, y para eso necesitan ejercitar un poco.
+
+Para ayudarnos en esta tarea conseguimos a `Pachorra`, un ex entrenador de fútbol que ahora se dedica a trabajar con aves. Él diseñó una rutina especial que consiste en lo siguiente:
 
 * Volar en círculos 10 veces.
 * Comer un puñado de 30 gramos de alpiste.
