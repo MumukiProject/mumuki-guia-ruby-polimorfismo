@@ -21,13 +21,13 @@ describe 'Pepo' do
     expect(Pepo.energia).to eq 1030
   end
   
-  it 'gasta 15 de energía cuando vuela y está gordo' do
+  it 'gasta 15 de energía cuando vuela y está pesado' do
     Pepo.energia = 1200
     Pepo.volar_en_circulos!
     expect(Pepo.energia).to eq 1185
   end
   
-  it 'gasta 5 de energía cuando vuela y no está gordo' do
+  it 'gasta 5 de energía cuando vuela y no está pesado' do
     Pepo.volar_en_circulos!
     expect(Pepo.energia).to eq 995
   end  
