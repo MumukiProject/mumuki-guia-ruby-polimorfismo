@@ -1,4 +1,4 @@
-Recordá que existen los operadores de comparación `<` y `>`, que sirven para verificar si una expresión númerica es más chica o más grande que otra, respectivamente.
+Recordá que existen los operadores de comparación `<` y `>`, que sirven para verificar si una expresión númerica es menor o mayor a otra, respectivamente.
 
 Por ejemplo:
 
