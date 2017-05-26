@@ -2,4 +2,4 @@
  
 Este concepto es fundamental en objetos, y lo conocemos como **polimorfismo**. Decimos entonces que dos objetos son **polimórficos** cuando pueden responder a un mismo conjunto de mensajes y hay un tercer objeto que los usa indistintamente.
 
-> ¿Se entiende?
+> ¡Comprobemos si entendiste! Elegí las opciones correctas: 
