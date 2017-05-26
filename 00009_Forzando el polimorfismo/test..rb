@@ -11,6 +11,6 @@ describe 'Norita' do
   it 'puede entrenar con Pachorra' do
     Pachorra.firmar_contrato!(Norita)
     Pachorra.entrenar_ave!
-    expect(Norita.energia).to eq 500
+    expect(Norita.energia).to eq 20
   end
 end
