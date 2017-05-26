@@ -1,0 +1,16 @@
+---
+tags: []
+layout: input_right
+editor: multiple_choice
+type: problem
+extra_visible: false
+language: 
+teacher_info: 
+manual_evaluation: false
+choices:
+- value: Pepita, Norita y Pepo son polimórficas para Emilce.
+  checked: true
+- value: Pepita, Norita y Pepo son polimórficas para Pachorra.
+  checked: false
+- value: Pepita y Pepo son polimórficas para Pachorra.
+  checked: true
