@@ -1,4 +1,4 @@
-describe 'Norita' do
+describe '¿Norita' do
   it 'puede entrenar con Pachorra?' do
     expect(norita_puede_entrenar_con_pachorra).to be false
   end
@@ -8,7 +8,7 @@ describe 'Norita' do
   end  
 end
 
-describe 'Pepita' do
+describe '¿Pepita' do
   it 'puede entrenar con Pachorra?' do
     expect(pepita_puede_entrenar_con_pachorra).to be true
   end
@@ -18,7 +18,7 @@ describe 'Pepita' do
   end  
 end
 
-describe 'Pepo' do
+describe '¿Pepo' do
   it 'puede entrenar con Pachorra?' do
     expect(pepo_puede_entrenar_con_pachorra).to be true
   end
