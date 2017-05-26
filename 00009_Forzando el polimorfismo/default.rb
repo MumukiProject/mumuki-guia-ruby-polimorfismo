@@ -1,0 +1,11 @@
+module Norita
+  @energia = 500
+
+  def self.volar_en_circulos!
+    @energia -= 100
+  end
+  
+  def self.comer_alpiste!(gramos)
+    @energia -= gramos
+  end  
+end
