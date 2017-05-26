@@ -1,4 +1,4 @@
-Analicemos el error::
+Analicemos el error:
 
 ```ruby
 ム Pachorra.entrenar_ave!
