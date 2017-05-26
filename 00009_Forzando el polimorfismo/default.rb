@@ -1,5 +1,5 @@
 module Norita
-  @energia = 500
+  @energia = 1500
 
   def self.energia
     @energia
