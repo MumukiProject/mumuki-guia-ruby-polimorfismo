@@ -4,7 +4,7 @@ layout: input_right
 editor: multiple_choice
 type: problem
 extra_visible: false
-language: 
+language: text
 teacher_info: 
 manual_evaluation: false
 choices:
