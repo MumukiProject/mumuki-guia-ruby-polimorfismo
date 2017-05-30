@@ -1,3 +1,12 @@
+module Pehuajo
+end
+
+module Malaquita
+end
+
+module Paris
+end
+
 module Manuelita
   @energia = 100
   @ciudad = Pehuajo
