@@ -1,7 +1,7 @@
 module Manuelita
   @energia = 100
   @ciudad = Pehuajo
-  @comida_preferida = Lechuga
+  @mineral_preferido = Malaquita
   @donde_va = Paris
   
   def self.energia
@@ -12,12 +12,12 @@ module Manuelita
     @ciudad
   end
   
-  def self.comida_preferida=(comida)
-    @comida_preferida = comida
+  def self.mineral_preferido=(mineral)
+    @mineral_preferido = mineral
   end
   
-  def self.comida_preferida
-    @comida_preferida
+  def self.mineral_preferido
+    @mineral_preferido
   end
   
   def self.donde_va=(ciudad)
