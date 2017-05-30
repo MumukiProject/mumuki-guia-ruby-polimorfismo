@@ -4,7 +4,7 @@ describe 'Inodoro' do
   end
   
   it 'puede tomar mate con Eulogia' do
-    Inodoro.compinche = Eulogia
+    # Inodoro.compinche = Eulogia
     expect(Eulogia).to receive :recibir_mate!
     Inodoro.tomar_mate!
   end  
