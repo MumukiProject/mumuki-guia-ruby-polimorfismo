@@ -6,6 +6,6 @@ Tu tarea será completar el código que te ofrecemos, implementando los métodos
 
 > * Recibir un mate tanto para `Eulogia` como para `Mendieta`.
 * Modificar al `compinche` de `Inodoro`, para poder elegir con quién tomará mate.
-* Consultar cuánta `cafeina_en_sangre` tiene `Inodoro`.
+* Consultar cuánta cafeína en sangre tiene `Inodoro`.
 * Consultar si `Eulogia` está enojada.
 * Consultar cuántas ganas de hablar tiene `Mendieta`.
