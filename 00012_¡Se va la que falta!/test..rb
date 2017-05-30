@@ -1,0 +1,2 @@
+describe 'Inodoro' do
+end
