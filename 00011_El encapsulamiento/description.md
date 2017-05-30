@@ -1,7 +1,9 @@
-Ya aprendiste cómo crear **getters** y **setters**, pero ¿siempre vamos a querer ambos?
+Ya aprendiste cómo crear **getters** y **setters** para un atributo, pero ¿siempre vamos a querer ambos? :fearful:
 
-La respuesta es que no, y a medida que desarrolles más programas y dominios diferentes tendrás que construir tu propio criterio para decidir cuándo sí y cuándo no. Veamos dos ejemplos.
+La respuesta es que no, y a medida que desarrolles más programas y dominios diferentes tendrás que construir tu propio criterio para decidir cuándo sí y cuándo no.
 
-¿Qué pasaría si a `Pepita` le agregamos un setter para la energía? Podríamos llegar a estados inconsistentes, en los que 
+Por ejemplo, ¿qué pasaría si a `Pepita` le agregaramos un setter para la ciudad? Podríamos cambiarla en cualquier momento de nuestro programa ¡y no perdería energía! Eso va claramente en contra de las reglas de nuestro dominio, y no queremos que nuestro programa lo permita.
 
-## TERMINAR Y ARMAR LOS TESTS. LA IDEA ES TENER UN OBJETO CON VARIOS ATRIBUTOS, REGLAS SOBRE SI EXPONER O NO GETTER Y SETTER Y QUE LOS IMPLEMENTEN.
+> Te dejamos en la **Biblioteca** el código que modela a [Manuelita](https://es.wikipedia.org/wiki/Manuelita_(canci%C3%B3n)), una tortuga viajera. Algunos de sus atributos pueden ser leidos, otros modificados y otros ambas cosas. 
+>
+> Completá las listas de `atributos_con_getter` y `atributos_con_setter` según corresponda.
