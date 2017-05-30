@@ -1,3 +1,5 @@
 En esta lección le dimos nombre al **polimorfismo** una idea con la que ya venías trabajando, pero sobre la que todavía no habíamos reflexionado. Este principio fundamental del paradigma de objetos nos permite que podamos interactuar de igual manera con diferentes objetos, con el único requisito de que todos ellos entiendan el o los mensajes que necesitamos enviarles.
 
-Relacionado a esto, hablamos del **encapsulamiento** que nos permite el paradigma, haciendo que cada objeto solo **exponga** lo necesario para interactuar con él y se reserve para su ámbito privado lo que no sea necesario compartir. En el caso de los atributos, esta exposición se logra implementando un **getter** (método que nos permite ver su valor) o un **setter** (método que nos permite modificar su valor).
+Relacionado a esto, hablamos del **encapsulamiento** que nos permite el paradigma, haciendo que cada objeto solo **exponga** lo necesario para interactuar con él y se reserve para su ámbito privado lo que no sea necesario compartir. 
+
+En el caso de los atributos, esta exposición se logra implementando un **getter** (método que nos permite ver su valor) o un **setter** (método que nos permite modificar su valor). Y que nuestro código sea entendido fácilmente por otras personas, elegimos utilizar una **convención** para darle nombre a estos métodos.
