@@ -1,7 +1,7 @@
 atributos = %w(
   energia
   ciudad
-  comida_preferida
+  mineral_preferido
   donde_va
 )
 
