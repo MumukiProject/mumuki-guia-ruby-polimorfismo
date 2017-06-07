@@ -1,3 +1,7 @@
+module Pepo
+  @energia = 900
+end
+
 describe 'Pachorra' do
   it 'entiende firmar_contrato!' do
     expect(Pachorra).to respond_to :firmar_contrato!
