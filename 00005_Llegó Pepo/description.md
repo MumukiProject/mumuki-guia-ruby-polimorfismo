@@ -4,4 +4,6 @@
 * **volar en círculos**: gasta 15 unidades de energía si está pesado (es decir, su energía es más de 1100) y 5 si no lo está.
 * **hacer lo que quiera**: como siempre tiene hambre, aprovecha y come 120 gramos de alpiste.
 
+Ah, y al igual que `Pepita`, su energía comienza en `1000`.
+
 > Implementá a `Pepo` según las reglas anteriores. Te dejamos el código de `Pepita` para usar como base, modificá y borrá las partes que no correspondan.
