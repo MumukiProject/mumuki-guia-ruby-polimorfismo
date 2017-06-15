@@ -16,6 +16,6 @@ describe 'Pachorra' do
   it 'firma contrato con Pepo y lo entrena' do
     Pachorra.firmar_contrato!(Pepo)
     Pachorra.entrenar_ave!
-    expect(Pepo.energia).to eq 1000
+    expect(Pepo.energia).to eq 900
   end  
 end
