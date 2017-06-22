@@ -2,8 +2,8 @@
 
 ¿Y cuándo ocurre eso? 
 
-* Pepita está _débil_ si su energía es menos de 100. :fearful:
-* Pepita está _feliz_ si su energía es más de 1000. :grin:
+* Pepita está _débil_ si su energía es menor que 100. :fearful:
+* Pepita está _feliz_ si su energía es mayor que 1000. :grin:
 
 > Completá los métodos `debil?` y `feliz?` de `Pepita`. 
 
