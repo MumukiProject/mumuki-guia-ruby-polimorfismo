@@ -1,6 +1,6 @@
 describe 'Pachorra' do
   it 'no entiende firmar_contrato!' do
-    expect(Pachorra).to respond_to :firmar_contrato!
+    expect(Pachorra).not_to respond_to :firmar_contrato!
   end  
   
   it 'entiende ave=' do
