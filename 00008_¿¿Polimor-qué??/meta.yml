@@ -5,7 +5,6 @@ editor: multiple_choice
 type: problem
 extra_visible: false
 language: text
-teacher_info: 
 manual_evaluation: false
 choices:
 - value: Pepita, Norita y Pepo son polimórficas para Emilce.

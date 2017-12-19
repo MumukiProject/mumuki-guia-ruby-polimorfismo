@@ -22,13 +22,13 @@ context '' do
     end
     
     it 'puede tomar mate con Eulogia' do
-      Inodoro.compinche = Eulogia
+      Inodoro.compinche! Eulogia
       expect(Eulogia).to receive :recibir_mate!
       Inodoro.tomar_mate!
     end
     
     it 'puede tomar mate con Mendieta' do
-      Inodoro.compinche = Mendieta
+      Inodoro.compinche! Mendieta
       expect(Mendieta).to receive :recibir_mate!
       Inodoro.tomar_mate!
     end  
@@ -40,7 +40,7 @@ context '' do
     end
     
     it 'se enoja cuando recibe un mate de Inodoro' do
-      Inodoro.compinche = Eulogia
+      Inodoro.compinche! Eulogia
       Inodoro.tomar_mate!
       expect(Eulogia.enojada).to be true
     end
@@ -52,7 +52,7 @@ context '' do
     end
     
     it 'deja de tener ganas de hablar cuando recibe un mate de Inodoro' do
-      Inodoro.compinche = Mendieta
+      Inodoro.compinche! Mendieta
       Inodoro.tomar_mate!
       expect(Mendieta.ganas_de_hablar).to eq 0
     end
