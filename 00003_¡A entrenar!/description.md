@@ -7,6 +7,6 @@ Para ayudarnos en esta tarea conseguimos a `Pachorra`, un ex entrenador de fútb
 * Volar en círculos 5 veces.
 * Como premio, que el ave haga lo que quiera.
 
-> Creá a `Pachorra`, el entrenador de aves, y hacé que cuando reciba el mensaje `entrenar_ave!` haga que `Pepita` realice su rutina.
+> Creá a `Pachorra`, el entrenador de aves, y hacé que cuando reciba el mensaje `entrenar_ave!` haga que `Pepita` realice su rutina (si, solo puede entrar a Pepita :pensive:, pero lo solucionaremos pronto).
 
 Para que no moleste, movimos el código de `Pepita` a la **Biblioteca**.
