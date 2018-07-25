@@ -1,6 +1,6 @@
 module Pachorra
-  def self.firmar_contrato!(ave)
-    @ave = ave
+  def self.firmar_contrato!(un_ave)
+    @ave = un_ave
   end
   
   def self.entrenar_ave!
