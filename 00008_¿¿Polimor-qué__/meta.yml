@@ -7,12 +7,16 @@ extra_visible: false
 language: text
 manual_evaluation: false
 choices:
-- value: Pepita, Norita y Pepo son polimórficas para Emilce.
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Pepita, Norita y Pepo son polimórficas para Emilce.
   checked: true
-- value: Pepita, Norita y Pepo son polimórficas para Pachorra.
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Pepita, Norita y Pepo son polimórficas para Pachorra.
   checked: false
-- value: Pepita, Norita y Pepo no son polimórficas para Pachorra.
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Pepita, Norita y Pepo no son polimórficas para Pachorra.
   checked: true
-- value: Pepita y Pepo son polimórficas para Pachorra.
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Pepita y Pepo son polimórficas para Pachorra.
   checked: true
 name: "¿¿Polimor-qué??"
