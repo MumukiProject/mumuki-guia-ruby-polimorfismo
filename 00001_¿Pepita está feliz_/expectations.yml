@@ -2,10 +2,7 @@
 expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: Pepita
-  inspection: DeclaresMethod:self.volar_en_circulos!
+  inspection: DeclaresMethod:volar_en_circulos!
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: Pepita
-  inspection: DeclaresVariable:energia
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: Pepita
-  inspection: DeclaresMethod:self.comer_alpiste!
+  inspection: DeclaresMethod:comer_alpiste!
