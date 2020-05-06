@@ -6,3 +6,6 @@ expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: Pepita
   inspection: DeclaresMethod:comer_alpiste!
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: debil?
+  inspection: Not:Assigns
