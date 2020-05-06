@@ -3,3 +3,9 @@ expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: pesado?
   inspection: Not:Assigns
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Pepo
+  inspection: Not:DeclaresMethod:feliz?
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Pepo
+  inspection: Not:DeclaresMethod:debil?
