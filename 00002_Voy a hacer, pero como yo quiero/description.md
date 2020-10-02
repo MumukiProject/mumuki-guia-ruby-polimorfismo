@@ -4,7 +4,7 @@ En Ruby, como en muchos otros lenguajes, esto se escribe con la palabra reservad
 
 ```ruby
 module Puerta
-  @color = "madera"
+  @esta_lijada = false
   
   def self.abrir!
     if self.cerrada_con_llave?
@@ -15,9 +15,14 @@ module Puerta
   end
   
   def self.pintar!(nuevo_color)
-    if @color == "madera"
+    if @esta_lijada
       @color = nuevo_color
     end
+  end
+    
+  def lijar!
+    @esta_lijada = true
+  end
 end
 ```
 
