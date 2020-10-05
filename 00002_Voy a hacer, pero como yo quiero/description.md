@@ -20,7 +20,7 @@ module Puerta
     end
   end
     
-  def lijar!
+  def self.lijar!
     @esta_lijada = true
   end
 end
