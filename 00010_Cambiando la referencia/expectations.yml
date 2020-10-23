@@ -1,0 +1,8 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Pachorra
+  inspection: DeclaresMethod:ave=
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Pachorra
+  inspection: Not:DeclaresMethod:firmar_contrato!

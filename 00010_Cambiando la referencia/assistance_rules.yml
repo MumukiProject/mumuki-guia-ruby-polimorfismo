@@ -1,0 +1,8 @@
+---
+rules:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+    these_expectations_failed:
+    - Pachorra Not:DeclaresMethod:firmar_contrato!
+  then: "`Pachorra` ya no tiene que entender `firmar_contrato!`, ahora es el método
+    `ave=`, quien debe modificar su atributo"
