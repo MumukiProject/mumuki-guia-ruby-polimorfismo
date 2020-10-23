@@ -12,3 +12,6 @@ expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
   inspection: Not:Uses:Pepo
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Pachorra
+  inspection: DeclaresComputationWithArity0:entrenar_ave!
