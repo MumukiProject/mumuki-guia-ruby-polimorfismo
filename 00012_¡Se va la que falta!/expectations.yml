@@ -3,3 +3,18 @@ expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
   inspection: Except:HasWrongCaseIdentifiers
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Inodoro
+  inspection: DeclaresMethod:tomar_mate!
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: tomar_mate!
+  inspection: Uses:recibir_mate!
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Eulogia
+  inspection: DeclaresMethod:recibir_mate!
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Mendieta
+  inspection: DeclaresMethod:recibir_mate!
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: recibir_mate!
+  inspection: Not:Uses:tomar_mate!

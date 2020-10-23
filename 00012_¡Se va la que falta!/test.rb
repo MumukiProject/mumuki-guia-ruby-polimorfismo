@@ -17,10 +17,6 @@ context '' do
   end
   
   describe 'Inodoro' do
-    it 'puede decirnos su cafeína en sangre' do
-      expect(Inodoro.cafeina_en_sangre).to eq 90
-    end
-    
     it 'puede tomar mate con Eulogia' do
       Inodoro.compinche= Eulogia
       expect(Eulogia).to receive :recibir_mate!
@@ -35,22 +31,14 @@ context '' do
   end
   
   describe 'Eulogia' do
-    it 'puede decirnos si está enojada' do
-      expect(Eulogia.enojada).to be false
-    end
-    
     it 'se enoja cuando recibe un mate de Inodoro' do
       Inodoro.compinche= Eulogia
       Inodoro.tomar_mate!
-      expect(Eulogia.enojada).to be true
+      expect(Eulogia.enojada?).to be true
     end
   end
   
   describe 'Mendieta' do
-    it 'puede decirnos cuántas ganas de hablar tiene' do
-      expect(Mendieta.ganas_de_hablar).to eq 5
-    end
-    
     it 'deja de tener ganas de hablar cuando recibe un mate de Inodoro' do
       Inodoro.compinche= Mendieta
       Inodoro.tomar_mate!
