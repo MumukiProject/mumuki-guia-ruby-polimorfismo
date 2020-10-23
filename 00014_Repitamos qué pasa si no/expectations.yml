@@ -9,3 +9,6 @@ expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: hacer_lo_que_quiera!
   inspection: Uses:debil?
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: hacer_lo_que_quiera!
+  inspection: Not:Uses:Pepita
