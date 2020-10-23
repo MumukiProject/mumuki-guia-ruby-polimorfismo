@@ -1,7 +1,31 @@
-Los números entienden un mensaje llamado `times`, que sirve para ejecutar una porción de código varias veces. Por ejemplo, para que `Pepita` cante diez veces, podríamos escribir esto:
+En Ruby, podemos simplicar la manera de escribir un if dentro un else con `elsif`. Por ejemplo este código:
 
 ```ruby
-10.times { Pepita.cantar! }
+def self.nota_conceptual (nota)
+  if nota > 8
+    "Sobresaliente"
+  else
+    if nota > 6
+      "Satisfactoria"
+    else
+      "No satisfactoria"
+    end
+  end
+end
 ```
 
-Antes de seguir, ¿te animás a editar tu solución para que use esta forma de repetición? :smirk:
+Lo podemos escribir:
+
+```ruby
+def self.nota_conceptual (nota)
+  if nota > 8
+    "Sobresaliente"
+  elsif nota > 6
+    "Satisfactoria"
+  else
+    "No satisfactoria"
+  end
+end
+```
+
+Antes de seguir, ¿te animás a editar tu solución para que use `elsif`? :smirk:
