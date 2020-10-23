@@ -20,4 +20,4 @@ expectations:
   inspection: Uses:times
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: hacer_lo_que_quiera!
-  inspection: Uses:Pepita
+  inspection: Not:Uses:Pepita
