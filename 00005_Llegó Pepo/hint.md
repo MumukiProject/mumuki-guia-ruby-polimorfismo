@@ -1,0 +1,1 @@
+En la `Biblioteca` te dejamos a `Pepita` por si no recordás cómo era la sintaxis de la alternativa condicional. :wink:
