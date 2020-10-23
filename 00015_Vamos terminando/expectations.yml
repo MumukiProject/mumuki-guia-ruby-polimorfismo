@@ -1,0 +1,23 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Inodoro
+  inspection: DeclaresMethod:compinche
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Inodoro
+  inspection: DeclaresMethod:compinche=
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Inodoro
+  inspection: DeclaresMethod:cafeina_en_sangre
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Mendieta
+  inspection: DeclaresMethod:ganas_de_hablar
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Mendieta
+  inspection: DeclaresMethod:ganas_de_hablar=
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Eulogia
+  inspection: DeclaresMethod:enojada?
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Eulogia
+  inspection: Not:DeclaresMethod:enojada

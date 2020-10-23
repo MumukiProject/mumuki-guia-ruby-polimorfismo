@@ -1,0 +1,7 @@
+---
+rules:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+    these_expectations_failed:
+    - Eulogia Not:DeclaresMethod:enojada
+  then: Acordate que los getters que devuelven booleanos llevan `?` al final del nombre
