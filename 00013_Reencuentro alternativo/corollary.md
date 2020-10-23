@@ -1,0 +1,1 @@
+Como acabamos de ver, la alternativa condicional es como en otros lenguajes. La diferencia radica en su sintaxis, es decir, cómo la escribimos. :nerd:

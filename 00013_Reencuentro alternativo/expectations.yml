@@ -1,0 +1,17 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Pepita
+  inspection: DeclaresMethod:hacer_lo_que_quiera!
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: debil?
+  inspection: Not:Assigns
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: feliz?
+  inspection: Not:Assigns
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: hacer_lo_que_quiera!
+  inspection: Not:Uses:Pepita
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: hacer_lo_que_quiera!
+  inspection: Uses:debil?

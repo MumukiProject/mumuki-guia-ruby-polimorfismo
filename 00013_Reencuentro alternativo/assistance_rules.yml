@@ -1,0 +1,14 @@
+---
+rules:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+    these_expectations_failed:
+    - hacer_lo_que_quiera! Not:Uses:Pepita
+  then: Recordá que, al igual que todos los objetos, `Pepita` se conoce a sí misma
+    como `self`
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+    these_expectations_failed:
+    - hacer_lo_que_quiera! Uses:debil?
+  then: Ya tenés el método `debil?`, no hace falta que preguntes por la energía en
+    `hacer_lo_que_quiera!`
