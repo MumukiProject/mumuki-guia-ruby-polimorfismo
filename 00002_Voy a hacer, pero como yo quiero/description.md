@@ -1,37 +1,23 @@
-Si llegaste hasta acá, ya deberías saber que en programación existe una herramienta llamada **alternativa condicional**, que la usamos justamente para estos casos. 
-
-En Ruby, como en muchos otros lenguajes, esto se escribe con la palabra reservada `if`. Por ejemplo:
+Algunas veces vamos a tener condiciones anidadas. En otras palabras, un if dentro de un if o un else. Como en este código:
 
 ```ruby
-module Puerta
-  @esta_lijada = false
-  
-  def self.abrir!
-    if self.cerrada_con_llave?
-      self.forzar_cerradura!
+def self.nota_conceptual (nota)
+  if nota > 8
+    "Sobresaliente"
+  else
+    if nota > 6
+      "Satisfactoria"
     else
-      self.girar_picaporte!
+      "No satisfactoria"
     end
-  end
-  
-  def self.pintar!(nuevo_color)
-    if @esta_lijada
-      @color = nuevo_color
-    end
-  end
-    
-  def self.lijar!
-    @esta_lijada = true
   end
 end
 ```
 
-Sabiendo esto queremos que `Pepita`, además de recibir ordenes, tenga sus momentos para poder hacer lo que quiera.
-
-Obviamente, qué quiere hacer en un momento dado depende de su estado de ánimo:
+Ahora que vimos estas condiciones anidadas que poco tienen que ver con el nido de Pepita :stuck_out_tongue_winking_eye:, vamos a conocer el comportamiento definitivo de Pepita cuando hace lo que quiere:
 
 * Si está débil, come diez gramos de alpiste, para recuperarse.
-* Si está feliz, vuela en círculos cinco veces.
-* Si no está feliz ni débil, no hace nada.
+* Si no está debil pero sí feliz, vuela en círculos cinco veces.
+* Si no está feliz ni débil, vuela en círculos 3 veces.
 
-> Hacé que `Pepita` entienda el mensaje `hacer_lo_que_quiera!` que se comporte como explicamos.
+> Modificá a `Pepita` para que el método `hacer_lo_que_quiera!` se comporte como mencionamos más arriba.

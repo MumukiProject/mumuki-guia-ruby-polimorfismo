@@ -9,21 +9,21 @@ describe 'Pepita' do
     expect(Pepita).to respond_to :hacer_lo_que_quiera!
   end
   
-  it 'cuando está debil y hace lo que quiere, come 10 gramos de alpiste' do
+  it 'cuando está débil y hace lo que quiere, come 10 gramos de alpiste' do
     Pepita.energia = 80
     Pepita.hacer_lo_que_quiera!
     expect(Pepita.energia).to eq 230
   end
   
-  it 'cuando está feliz y hace lo que quiere, vuela en círculos cinco veces' do
+  it 'cuando no está débil, pero sí feliz y hace lo que quiere, vuela en círculos cinco veces' do
     Pepita.energia = 1010
     Pepita.hacer_lo_que_quiera!
     expect(Pepita.energia).to eq 960
   end
   
-  it 'cuando no está ni triste ni feliz y hace lo que quiere, no pasa nada' do
+  it 'cuando no está ni débil ni feliz y hace lo que quiere, come 5 gramos de alpiste' do
     Pepita.energia = 500
     Pepita.hacer_lo_que_quiera!
-    expect(Pepita.energia).to eq 500
+    expect(Pepita.energia).to eq 470
   end  
 end
