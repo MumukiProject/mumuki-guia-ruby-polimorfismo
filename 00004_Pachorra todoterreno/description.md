@@ -3,9 +3,14 @@ Como imaginabas, `Pachorra` puede entrenar cualquier tipo de aves, aunque para q
 Antes de empezar a entrenar, debe firmar un contrato con el ave. Esto, por ejemplo, lo haríamos de la siguiente manera:
 
 ```ruby
-Pachorra.firmar_contrato!(Pepita)
+Pachorra.firmar_contrato!(Pepita) # ahora el ave de Pachorra es Pepita
+```
+
+Cada vez que firmamos un contrato cambiamos la referencia del `ave` de `Pachorra`, por lo cual es necesario recordar cuál es ya que a ella le enviaremos mensajes:
+
+```ruby
 Pachorra.entrenar_ave! # acá entrena a Pepita
-Pachorra.firmar_contrato!(Pepo)
+Pachorra.firmar_contrato!(Pepo) # ahora el ave de Pachorra es Pepo
 Pachorra.entrenar_ave! # ahora entrena a Pepo
 ```
 

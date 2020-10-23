@@ -1,3 +1,1 @@
-Cada vez que el entrenador firme contrato con un ave, es necesario **recordar** quién es, para luego poder enviarle mensajes.
-
-¿Se te ocurre cómo modificar el **estado** de `Pachorra` para que esto suceda?
+El método `firmar_contrato!` solo cambia el `ave` de `Pachorra`, no hay que hacer nada más en ese método. :eyes:

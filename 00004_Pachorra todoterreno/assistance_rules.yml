@@ -1,0 +1,19 @@
+---
+rules:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+    these_expectations_failed:
+    - "* Not:Declares:Pepita"
+  then: No es necesario declarar a Pepita en este ejercicio.
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+    these_expectations_failed:
+    - "* Not:Declares:Pepo"
+  then: No es necesario declarar a Pepo en este ejercicio.
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+    these_expectations_failed:
+    - "* Not:Uses:Pepita"
+    - "* Not:Uses:Pepo"
+  then: Acordate que Pachorra entrena al ave con al que haya firmado contrato, no
+    a Pepita o Pepo específicamente.
