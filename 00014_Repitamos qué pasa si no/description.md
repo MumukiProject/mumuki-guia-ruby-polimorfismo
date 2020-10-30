@@ -16,4 +16,4 @@ Es un mensaje que entienden los números que sirve para ejecutar una porción de
 
 Ahora que conocimos la existencia de `times` y vimos cómo hacer `else`...
 
-> Modificá el código del ejercicio anterior para que si Pepita no está débil coma vuele en círculos 3 veces.
+> Modificá el código del ejercicio anterior para que si Pepita no está débil vuele en círculos 3 veces.
