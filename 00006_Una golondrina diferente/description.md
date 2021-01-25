@@ -19,6 +19,6 @@ Pero, ¿podrá entrenar con `Pachorra`? :open_mouth:
 > Probalo en la consola, enviando los siguientes mensajes:
 > 
 ```ruby
-ム Pachorra.firmar_contrato!(Norita)
+ム Pachorra.firmar_contrato! Norita
 ム Pachorra.entrenar_ave!
 ```
