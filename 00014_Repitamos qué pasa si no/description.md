@@ -1,11 +1,11 @@
 Hay veces que con un `if` alcanza, pero otras queremos hacer algo si no se cumple una condición. Como ya te podrás imaginar, donde hay un if ¡cerca anda un `else`! :eyes:
 
 ```ruby
-def self.cuidar! (planta)
+def self.cuidar!(planta)
   if planta.necesita_agua?
-    3.times { self.regar! (planta) }
+    3.times { self.regar! planta }
   else
-    self.sacar_bichos! (planta)
+    self.sacar_bichos! planta
   end
 end
 ```
