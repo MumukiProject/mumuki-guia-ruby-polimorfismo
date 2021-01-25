@@ -1,7 +1,7 @@
 En Ruby, podemos simplicar la manera de escribir un if dentro un else con `elsif`. Por ejemplo este código:
 
 ```ruby
-def self.nota_conceptual (nota)
+def self.nota_conceptual(nota)
   if nota > 8
     "Sobresaliente"
   else
@@ -17,7 +17,7 @@ end
 Lo podemos escribir:
 
 ```ruby
-def self.nota_conceptual (nota)
+def self.nota_conceptual(nota)
   if nota > 8
     "Sobresaliente"
   elsif nota > 6

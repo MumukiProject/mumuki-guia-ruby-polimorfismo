@@ -1,7 +1,7 @@
 Algunas veces vamos a tener condiciones anidadas. En otras palabras, un if dentro de un if o un else. Como en este código:
 
 ```ruby
-def self.nota_conceptual (nota)
+def self.nota_conceptual(nota)
   if nota > 8
     "Sobresaliente"
   else
