@@ -1,14 +1,16 @@
 Algunas veces vamos a tener condiciones anidadas. En otras palabras, un if dentro de un if o un else. Como en este código:
 
 ```ruby
-def self.nota_conceptual(nota)
-  if nota > 8
-    "Sobresaliente"
-  else
-    if nota > 6
-      "Satisfactoria"
+module Docente
+  def self.nota_conceptual(nota)
+    if nota > 8
+      "Sobresaliente"
     else
-      "No satisfactoria"
+      if nota > 6
+        "Satisfactoria"
+      else
+        "No satisfactoria"
+      end
     end
   end
 end
