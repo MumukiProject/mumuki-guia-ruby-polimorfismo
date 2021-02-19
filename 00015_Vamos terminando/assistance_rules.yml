@@ -25,3 +25,8 @@ rules:
     these_expectations_failed:
     - enojada? Not:Assigns
   then: "`enojada?` no debe asignar valor a un atributo dado que es un _getter_"
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+    error_contains: unexpected end-of-input, expecting end
+  then: corroborá que no te hayas olvidado ningún `end` en la definición de tus objetos
+    y sus métodos
