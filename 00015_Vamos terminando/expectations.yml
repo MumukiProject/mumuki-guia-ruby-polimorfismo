@@ -21,3 +21,15 @@ expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: Eulogia
   inspection: Not:DeclaresMethod:enojada
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: compinche
+  inspection: Not:Assigns
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: cafeina_en_sangre
+  inspection: Not:Assigns
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: ganas_de_hablar
+  inspection: Not:Assigns
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: enojada?
+  inspection: Not:Assigns
