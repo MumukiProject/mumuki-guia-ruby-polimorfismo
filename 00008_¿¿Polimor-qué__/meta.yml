@@ -6,18 +6,19 @@ editor: multiple_choice
 type: problem
 extra_visible: false
 language: text
+teacher_info: ''
 manual_evaluation: false
 choices:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: Pepita, Norita y Pepo son polimórficas para Emilce.
+  value: "`Pepita`, `Norita` y `Pepo` son polimórficas para `Emilce`."
   checked: true
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: Pepita, Norita y Pepo son polimórficas para Pachorra.
+  value: "`Pepita`, `Norita` y `Pepo` son polimórficas para `Pachorra`."
   checked: false
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: Pepita, Norita y Pepo no son polimórficas para Pachorra.
+  value: "`Pepita`, `Norita` y `Pepo` no son polimórficas para `Pachorra`."
   checked: true
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: Pepita y Pepo son polimórficas para Pachorra.
+  value: "`Pepita` y `Pepo` son polimórficas para `Pachorra`."
   checked: true
 name: "¿¿Polimor-qué??"
