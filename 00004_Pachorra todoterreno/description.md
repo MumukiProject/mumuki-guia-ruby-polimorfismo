@@ -6,7 +6,7 @@ Antes de empezar a entrenar, debe firmar un contrato con el ave. Esto, por ejemp
 Pachorra.firmar_contrato! Pepita # ahora el ave de Pachorra es Pepita
 ```
 
-Cada vez que firmamos un contrato cambiamos la referencia del `ave` de `Pachorra`, por lo cual es necesario recordar cuál es ya que a ella le enviaremos mensajes:
+Cada vez que firmamos un contrato cambiamos el `ave` que entrenará `Pachorra`, por lo cual es necesario recordar cuál es ya que a ella le enviaremos mensajes:
 
 ```ruby
 Pachorra.entrenar_ave! # acá entrena a Pepita
