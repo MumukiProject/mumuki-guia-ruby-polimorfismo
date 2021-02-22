@@ -1,4 +1,4 @@
-En Ruby, podemos simplicar la manera de escribir un if dentro un else con `elsif`. Por ejemplo este código:
+En Ruby, podemos simplicar la manera de escribir un `if` dentro un `else` con `elsif`. Por ejemplo este código:
 
 ```ruby
 def self.nota_conceptual(nota)
