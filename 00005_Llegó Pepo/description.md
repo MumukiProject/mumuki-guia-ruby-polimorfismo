@@ -6,4 +6,4 @@
 
 Ah, y al igual que `Pepita`, su energía comienza en `1000`.
 
-> Implementá a `Pepo` según las reglas anteriores. Te dejamos el código de `Pepita` para usar como base, modificá y borrá las partes que no correspondan.
+> Definí a `Pepo` según las reglas anteriores. Te dejamos el código de `Pepita` para usar como base, modificá y borrá las partes que no correspondan.
