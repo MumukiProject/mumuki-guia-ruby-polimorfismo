@@ -14,4 +14,4 @@ Pachorra.firmar_contrato! Pepo # ahora el ave de Pachorra es Pepo
 Pachorra.entrenar_ave! # ahora entrena a Pepo
 ```
 
-> Agregale a `Pachorra` el mensaje `firmar_contrato!(ave)`, de forma tal que cuando le enviemos el mensaje `entrenar_ave!` haga entrenar al último ave con el que haya firmado contrato.
+> Agregale a `Pachorra` el método `firmar_contrato!(ave)`, de forma tal que cuando le enviemos el mensaje `entrenar_ave!` haga entrenar al último ave con el que haya firmado contrato.
