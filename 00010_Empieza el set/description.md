@@ -6,7 +6,7 @@ Para estos casos, solemos utilizar una convención que se asemeja a la forma que
 Emilce.ave = Pepita
 ```
 
-Esto se logra implementado el mensaje `ave=`, todo junto, como se ve a continuación:
+Esto se logra definiendo el método `ave=`, todo junto, como se ve a continuación:
 
 ```ruby
 module Emilce
