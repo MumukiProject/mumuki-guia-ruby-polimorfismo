@@ -14,8 +14,8 @@ end
 
 ¿Y ese `times` qué es? :face_with_monocle:
 
-Es un mensaje que entienden los números que sirve para ejecutar una porción de código varias veces. En este caso regaríamos 3 veces la planta recibida por parámetro.
+Es un mensaje que entienden los números que sirve para ejecutar una porción de código varias veces. En este caso regaríamos 3 veces la planta recibida como argumento.
 
 Ahora que conocimos la existencia de `times` y vimos cómo hacer `else`...
 
-> Modificá el código del ejercicio anterior para que si Pepita no está débil vuele en círculos 3 veces.
+> Modificá la solución para que si Pepita no está débil vuele en círculos 3 veces.
