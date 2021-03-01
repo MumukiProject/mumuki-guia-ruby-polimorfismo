@@ -1,4 +1,4 @@
-Algunas veces vamos a tener condiciones anidadas. En otras palabras, un if dentro de un if o un else. Como en este código:
+Algunas veces vamos a tener condiciones anidadas. En otras palabras, un `if` dentro de un `if` o un `else`. Como en este ejemplo:
 
 ```ruby
 module Docente
