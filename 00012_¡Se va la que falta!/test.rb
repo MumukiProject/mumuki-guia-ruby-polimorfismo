@@ -25,6 +25,7 @@ context '' do
   
   describe 'Inodoro' do
     it 'pasa a tener 100 de cafeína en sangre cuando toma un mate' do
+      Inodoro.compinche= Eulogia
       Inodoro.tomar_mate!
       expect(Inodoro.cafeina_en_sangre).to eq 100
     end
