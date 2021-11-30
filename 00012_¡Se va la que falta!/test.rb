@@ -1,3 +1,9 @@
+module Inodoro
+  def self.reiniciar!
+    @@cafeina_en_sangre = 90
+  end
+end
+
 module Eulogia
   def self.reiniciar!
     @enojada = false
@@ -12,11 +18,17 @@ end
 
 context '' do
   before(:each) do
+    Inodoro.reiniciar!
     Eulogia.reiniciar!
     Mendieta.reiniciar!
   end
   
   describe 'Inodoro' do
+    it 'pasa a tener 100 de cafeína en sangre cuando toma un mate' do
+      Inodoro.tomar_mate!
+      expect(Inodoro.cafeina_en_sangre).to eq 100
+    end
+    
     it 'puede tomar mate con Eulogia' do
       Inodoro.compinche= Eulogia
       expect(Eulogia).to receive :recibir_mate!
