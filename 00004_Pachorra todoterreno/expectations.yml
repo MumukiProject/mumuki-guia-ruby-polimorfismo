@@ -15,3 +15,6 @@ expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: Pachorra
   inspection: DeclaresComputationWithArity0:entrenar_ave!
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: firmar_contrato!
+  inspection: Not:Uses:entrenar_ave!
