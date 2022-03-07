@@ -23,3 +23,9 @@ rules:
     - Pachorra DeclaresComputationWithArity0:entrenar_ave!
   then: "`entrenar_ave!` no recibe parámetros, entrena al ave con la cual `Pachorra`
     firmó contrato"
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+    these_expectations_failed:
+    - firmar_contrato! Not:Uses:entrenar_ave!
+  then: "`firmar_contrato!` solo debe cambiar el ave de quien la entrena, no hacerla
+    entrenar"
