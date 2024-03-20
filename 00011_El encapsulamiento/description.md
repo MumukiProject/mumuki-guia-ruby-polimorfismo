@@ -6,4 +6,4 @@ Por ejemplo, ¿qué pasaría si a `Pepita` le agregaramos un setter para la ciud
 
 > Te dejamos en la **Biblioteca** el código que modela a [Manuelita](https://es.wikipedia.org/wiki/Manuelita_(canci%C3%B3n)), una tortuga viajera. Algunos de sus atributos pueden ser leidos, otros modificados y otros ambas cosas. 
 >
-> Completá las listas de `atributos_con_getter` y `atributos_con_setter` mirando en la definicion de Manuelita qué tiene programado como setter y que como getter.
+> Completá las listas de `atributos_con_getter` y `atributos_con_setter` mirando en la definicion de Manuelita qué tiene programado como setter y qué como getter.
