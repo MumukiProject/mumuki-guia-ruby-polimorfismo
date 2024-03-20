@@ -1,7 +1,6 @@
 ---
 rules:
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+- when:
     these_expectations_failed:
     - hacer_lo_que_quiera! Not:Uses:Pepita
   then: Recordá que, al igual que todos los objetos, `Pepita` se conoce a sí misma

@@ -1,32 +1,26 @@
 ---
 rules:
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+- when:
     these_expectations_failed:
     - Eulogia Not:DeclaresMethod:enojada
   then: Acordate que los getters que devuelven booleanos llevan `?` al final del nombre
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+- when:
     these_expectations_failed:
     - compinche Not:Assigns
   then: "`compinche` no debe asignar valor a un atributo dado que es un _getter_"
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+- when:
     these_expectations_failed:
     - cafeina_en_sangre Not:Assigns
   then: "`cafeina_en_sangre` no debe asignar valor a un atributo dado que es un _getter_"
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+- when:
     these_expectations_failed:
     - ganas_de_hablar Not:Assigns
   then: "`ganas_de_hablar` no debe asignar valor a un atributo dado que es un _getter_"
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+- when:
     these_expectations_failed:
     - enojada? Not:Assigns
   then: "`enojada?` no debe asignar valor a un atributo dado que es un _getter_"
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+- when:
     error_contains: unexpected end-of-input, expecting end
   then: corroborá que no te hayas olvidado ningún `end` en la definición de tus objetos
     y sus métodos

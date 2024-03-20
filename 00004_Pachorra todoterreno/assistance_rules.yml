@@ -1,30 +1,25 @@
 ---
 rules:
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+- when:
     these_expectations_failed:
     - "* Not:Declares:Pepita"
   then: No es necesario declarar a `Pepita` en este ejercicio
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+- when:
     these_expectations_failed:
     - "* Not:Declares:Pepo"
   then: No es necesario declarar a `Pepo` en este ejercicio
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+- when:
     these_expectations_failed:
     - "* Not:Uses:Pepita"
     - "* Not:Uses:Pepo"
   then: Acordate que `Pachorra` entrena al ave con al que haya firmado contrato, no
     a `Pepita` o `Pepo` específicamente
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+- when:
     these_expectations_failed:
     - Pachorra DeclaresComputationWithArity0:entrenar_ave!
   then: "`entrenar_ave!` no recibe parámetros, entrena al ave con la cual `Pachorra`
     firmó contrato"
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+- when:
     these_expectations_failed:
     - firmar_contrato! Not:Uses:entrenar_ave!
   then: "`firmar_contrato!` solo debe cambiar el ave de quien la entrena, no hacerla

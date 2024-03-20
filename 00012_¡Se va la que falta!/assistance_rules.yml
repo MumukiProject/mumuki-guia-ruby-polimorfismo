@@ -1,7 +1,6 @@
 ---
 rules:
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+- when:
     these_expectations_failed:
     - recibir_mate! Not:Uses:tomar_mate!
   then: "¡Cuidado! Como dijimos en la pista, los compinches de `Inodoro` no lo hacen
